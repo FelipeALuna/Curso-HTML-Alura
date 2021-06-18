@@ -1,0 +1,133 @@
+body{
+    font-family: 'Calibri'
+}
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0 20px 0;
+    font-family: initial;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.tituloPrincipal{
+    color: white;
+    padding: 25px;
+    font-size: 50px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#banner{
+    width: 100%;
+    display: block;
+    
+}
+.principal{
+    color: white;
+    margin-top: 0;
+    padding: 80px;
+    background-image: url("pexels-maria-orlova-4969856.jpg");
+    background-attachment: fixed ;
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    background-color: black;
+}
+#tituloapresentacao{
+    font-size: 80px;
+    border: solid 20px;
+    margin: 15%;
+}
+
+.TextoApresentacao{
+   
+    font-size: 30px;
+    margin: 15% 0;
+
+}
+
+
+.titulocentralizado{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+   
+}
+#missao{
+
+    font-size: 30px;
+    font-style: italic;   
+}
+
+em strong{
+    color: #FF0000;
+}
+.beneficios{
+   
+    font-size: 40px;
+    color: white;
+    background-image: url("pexels-maria-orlova-4969856.jpg");
+    background-attachment: fixed ;
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    background-color: black;
+    display: ;
+   
+
+}
+
+.titulobeneficios{
+    font-size: 60px;
+    text-align: center;
+    border: solid 20px;
+    margin: 0 15%;    
+    
+    
+}
+.listabeneficios {
+    padding: 100px;
+    list-style: none;
+    text-align: center;
+
+}
+.listabeneficios h2{
+    margin: 0 auto;
+}
+#teste{
+    border-style: dotted;
+}
+footer{
+    text-align: center;
+    background: url(resources/bg.jpg);
+    padding: 40px 0;
+
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
